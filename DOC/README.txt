@@ -1,0 +1,1 @@
+Bật putty để xem khoảng cách trả về (baudrate 115200)
