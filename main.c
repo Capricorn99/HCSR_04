@@ -128,7 +128,6 @@ int main(void)
     TimerConfigure(TIMER2_BASE, TIMER_CFG_ONE_SHOT_UP);
     //IntPrioritySet(INT_TIMER0A, 1);
 
-
     while(1) {
         if (boolTrigCondition)
         {
@@ -139,7 +138,6 @@ int main(void)
             boolTrigCondition = 0;
         }
         SysCtlDelay(2000000);
-
     }
 }
 
